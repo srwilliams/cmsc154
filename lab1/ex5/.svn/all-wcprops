@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/srwilliams-cs154-2014/!svn/ver/13/lab1/ex5
+END
+foo.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/srwilliams-cs154-2014/!svn/ver/3/lab1/ex5/foo.h
+END
+bar.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/srwilliams-cs154-2014/!svn/ver/3/lab1/ex5/bar.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/srwilliams-cs154-2014/!svn/ver/13/lab1/ex5/Makefile
+END
+foo.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/srwilliams-cs154-2014/!svn/ver/3/lab1/ex5/foo.c
+END
+bar.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/srwilliams-cs154-2014/!svn/ver/3/lab1/ex5/bar.c
+END

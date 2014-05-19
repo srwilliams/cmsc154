@@ -1,0 +1,39 @@
+Shelby Williams
+Hw3
+
+
+(1)
+
+funcQ (int x, int y) {
+	return y + (3 * x);
+}
+
+funcP (int r, int s, int t) {
+	if (s & s) {
+		s = funcQ(s, t) + r;
+	}
+	r = funcQ(r, s) + t;
+	return r + 16;
+}
+
+
+(2)
+
+A. x is in register %ecx, mask is in register %eax, result is in %edx, n is in %esi.
+B. result = 3, mask = 3
+C. mask not equal to 0
+D. mask is left shifted n bits
+E. result is or-equaled with x &ed with n.
+F. 1. = 3
+   2. = mask = 3
+   3. = mask != 0
+   4. = mask << n
+   5. = result |= x & n
+
+This is probably all wrong.  Please explain this, I have no idea what I'm doing.
+
+(3)
+
+ A. &A [i] [j] [k] = x_a + L(STi + Tj + k)
+
+ B. I'm going to take a guess here and say that j is in 8(%esp), so on line 4, we have 9 * j, and on line 5 we have 90 * i.  On line 7, we can see that it is reading from the memory address x_a + 4((90i + 9j) + k), and so then we can get that T = 9, and S = 10.  Since the function returns 1440 (which is the size of the array in bytes) we can get R by dividing 1440 by 4*9*10, which gives us 4.  So R = 4, S = 10, and T = 9.

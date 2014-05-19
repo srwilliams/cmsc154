@@ -1,0 +1,69 @@
+srwilliams hw3 grade: 21.5/32
+
+Graded files from svn revision 22
+
+--------------------------------------
+Question 1 points and comments: 3/10
+funcQ returns x + 3*y
+funcP returns funcQ(t,s)+r is s > 0 and funcQ(s,r)+t otherwise
+Graded by: Abraham Secular (asecular)
+--------------------------------------
+
+Question 2 points and comments: 8.5/12
+A: x is in %esi, n is in %ecx, result is in %eax, and mask is in %edx. -2
+B: result = 0. -1
+E: Rather, result |= (x & mask), not (x & n). -0.5
+
+To break it down further (line number in brackets [#]):
+
+The value of the stack pointer %esp is moved into %ebp. [3]
+Note that arguments to functions are usually stored relative to the stack pointer.
+We move 8(%ebp) into %esi - this is the first argument to the function, x. [10]
+We move 12(%ebp) into %ecx - this is the second argument to the function, n. [9]
+%eax is the return value of functions - since we return "result" at the end
+of our function, we know reuslt is held in %eax.
+%eax = (%eax ^ %eax), aka %eax = 0 as anything xor'd with itself is 0.
+So result = 0 initially. [7]
+This leaves %edx = 3, which we can conclude holds mask, which is set to 3. [8]
+
+Now we loop: [12-18]
+Recall that %eax holds result at the top of each iteration of the loop.
+%edi now holds result (this is for temporary storage). [12]
+%eax now holds mask. [13]
+%eax = %eax & %esi (%eax = mask & x). [14]
+%eax = %eax | %edi (%eax = (mask & x) | result). [15]
+This is the final value held in %eax before the eventual return, so we know
+that result = (mask & x) | result.
+
+We shift %edx left by %cl bytes (we shift mask left by n bytes). [16]
+This is the update for every byte.
+
+We test to see if %edx = 0 (mask = 0). [17]
+We loop again if mask != 0. [18]
+So our loop test is mask != 0.
+
+We have the following function in the end:
+
+int loop (int x, int n) {
+  int result = 0;
+  int mask;
+  for (mask = 3; mask != 0; mask = mask << n) {
+    result = result | (x & mask);
+  }
+  return result;
+}
+
+Sorry for how long this was. Hope that helps you understand!
+
+Graded by: Melissa Grossbarth (mgrossbarth)
+--------------------------------------
+
+Question 3 points and comments: 10/10
+nice job!
+
+Graded by: Rachel Hwang (rah1)
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week,
+starting from when this grade was returned, to notify us (the cs154 graders).
+Notify us by filling out and submitting the form here: http://goo.gl/fJSE1i

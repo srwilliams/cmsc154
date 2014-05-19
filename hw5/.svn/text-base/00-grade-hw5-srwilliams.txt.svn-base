@@ -1,0 +1,26 @@
+srwilliams hw5 grade: 30/40
+
+Graded files from svn revision 30
+
+--------------------------------------
+Question 1 points and comments: 17/20
+B) Be more specific. ie: if the pb
+points to an element in arr then its
+value be incremented during some iteration
+of the loop
+
+Graded by: Joe Ellis (ellisjoe)
+--------------------------------------
+
+Question 2 points and comments: 13/20
+A) The instruction used to trigger system calls is int, not syscall
+Need 2 differences between system calls and library functions
+B) They are distinguished by sections in the man pages. section
+2 for system calls and 3 for library functions
+
+Graded by: Joe Ellis (ellisjoe)
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week,
+starting from when this grade was returned, to notify us (the cs154 graders).
+Notify us by filling out and submitting the form here: http://goo.gl/USmu3r

@@ -1,0 +1,39 @@
+srwilliams hw2 grade: 28/40
+
+Graded files from svn revision 19
+
+--------------------------------------
+Question 1 points and comments: 16/20
+For part b, we don't know the value because endianness is unknown. The addressing mode is still base+displacement. For parts D, G, J, we do know the values, since leal simply gives us the address, not the value therein. Part D = 0x214, G = 0x267, J = 0x154
+
+Graded by: Rachel Hwang
+--------------------------------------
+
+Question 2 points and comments: 12/20
+2c: dest 0x210
+-1
+
+2d: value = 0xF7
+-1
+
+2f: dest = 0x21C
+-1
+
+2h: dest = 0x214  value = 0xBC00
+-2
+
+2i: value = 0x219
+-1
+
+2j: dest = 0x220  value = 0x4
+-2
+
+Graded by: Joseph Ellis 
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week
+(starting from when the grade was returned) to notify us (the cs154 graders).
+Notify us by posting a private question on the class Piazza page, in the
+"hw2" folder there. To help us quickly find and re-evaluate your work,
+begin your question by giving: (1) your CNetID, (2) the HW question # involved,
+and (3) the question's Grader, named above.

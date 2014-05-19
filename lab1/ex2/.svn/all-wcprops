@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/srwilliams-cs154-2014/!svn/ver/8/lab1/ex2
+END
+foo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/srwilliams-cs154-2014/!svn/ver/3/lab1/ex2/foo.txt
+END
+bar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/srwilliams-cs154-2014/!svn/ver/8/lab1/ex2/bar.txt
+END

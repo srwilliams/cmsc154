@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/srwilliams-cs154-2014/!svn/ver/33/p1bitmanip
+END
+dlc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/dlc
+END
+btest.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/btest.c
+END
+driver.pl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/driver.pl
+END
+btest.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/btest.h
+END
+fshow.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/fshow.c
+END
+tests-header.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/tests-header.c
+END
+ishow.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/ishow.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/Makefile
+END
+00-checkme.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/00-checkme.html
+END
+bits.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/bits.c
+END
+tests.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/tests.c
+END
+bits.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/bits.h
+END
+Driverhdrs.pm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/Driverhdrs.pm
+END
+decl.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/decl.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/README
+END
+Driverlib.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/srwilliams-cs154-2014/!svn/ver/2/p1bitmanip/Driverlib.pm
+END
+grade_p1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/srwilliams-cs154-2014/!svn/ver/33/p1bitmanip/grade_p1.txt
+END

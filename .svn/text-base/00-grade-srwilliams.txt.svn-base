@@ -1,0 +1,49 @@
+srwilliams cs154 grade: 55.608
+
+Homeworks:
+       hw1  (2.5%):     21/22 == 95.454%
+       hw2  (2.5%):     28/40 == 70.000%
+       hw3  (2.5%):   21.5/32 == 67.187%
+       hw4  (2.5%):     49/55 == 89.090%
+       hw5  (2.5%):     30/40 == 75.000%
+                     -------------------
+    hw avg (12.5%):           == 79.346%
+
+Projects:
+p1bitmanip  (6.5%):    35/100 == 35.000%
+    p2bomb  (6.5%):     49/60 == 81.666%
+
+Exams:
+     exam1   (20%):    39/100 == 39.000%
+
+(Current grade, based on 45.5% of assignments)
+   overall (45.5%):           == 55.608%
+
+           |<-- 0                                                                            100 -->| median:
+       hw1 . . . . . . . . . . . . . . . . . . . -----------------------===========<m>==========X---- 81.8182
+       hw2 . . . . . . . . . . . . . . . . . . . -------------------------X---------------=====<m>=-- 95
+       hw3 . . . . . . . . . . . . .-----------------------------------X----------------=======<m>=== 95.3125
+       hw4 . . . . . . . . . . . . . . . . ------------------------------------------------X====<m>=- 96.3636
+       hw5 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ---------X----------======<m>=== 95
+     hwAvg . . . . . . . . . . . . . . . . . . . . . . . . -----------------------X---=====<m>===---  90.6023
+p1bitmanip -------------------------------X--------------------------------------------===========<m> 98
+    p2bomb . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .X.-----------==<m 103.333
+     exam1 . . . . . . . . . . . . . . . . . -X---------------===========<m>=======--------- . . . .  70
+   overall . . . . . . . . . . . . . . . . . . . . . . .-----X----------------=====<m>=====------. .  81.8787
+
+The plots above (best seen with a fixed-width font) depict the distribution of grades
+(in a [0,100] range) for the whole class, with one line per grade component.
+The "---" spans from the 5th to the 95th percentile, containing 90% of the class.
+The "===" spans from the 25th to the 50th percentile, containing 50% of the class.
+The "<m>" marks the median, the grade that splits the grade distribution in half.
+Your grade is indicated with a single "X" (which overwrites one character of the
+plot, including possibly the "<", "m", or ">" of the median indicator).
+
+The mapping from numeric to letter grades will not be known until the end of the quarter.
+
+These grades were gathered from your per-assignment grades and processed with scripts
+created for cs154. This file may not reflect recent corrections to per-assignment grades.
+If you believe there is an error in some individual assignment grade, double-
+check the per-assignment gradefile. If you think information above does not match
+what you think you got on an assignment, or if you believe there is an error in the
+arithmetic here, either ask (privately) on Piazza or email cs154-profs@googlegroups.com

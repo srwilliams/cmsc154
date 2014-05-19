@@ -1,0 +1,40 @@
+Shelby Williams
+Hw4
+
+
+(1)
+
+A. ttttttttssbb
+
+B. Operation	Address	     Hit/Miss?	    Value
+    Read	0x833		Hit	    D0
+    Read	0x00A		Hit	    4A
+    Read	0x006	 	Hit	    46
+    Read	0xFFE		Hit	    03
+    Read	0x54D	        Miss	    Unknown
+    Write	0x54E	        Hit	    n/a
+    Write	0x007		Hit	    n/a
+    Read	0x44C		Miss	    Unknown
+    Read	0xFFE		Hit	    Unknown
+
+--------------------------------------------------------------------------------------------------------
+
+(2)
+
+C = 512
+S = 32
+E = 1
+B = 16
+
+A. 100%
+B. 25%
+C. 25%
+D. No, because the full size of the array fits in the cache, and the initial miss rate is a result of the empty cache.
+E. Yes, because the cache would load more of each part of the array in each block, and cut down on the number of times it would have to query the main memory for part of the array. It would exploit more spatial locality.  However, it would increase the miss penalty.
+
+---------------------------------------------------------------------------------------------------------
+
+(3)
+
+A. L_AL * (1 - F_LD + F_ST + F_BJ) + (L_BJ * F_BJ) * ((1-R) * M + (H * R))
+B. 1.1 *(1 - .22 + .12 + .20) + (3 * .20) * ((1 - .6) * 120 + (1 * .6)) = 30.37

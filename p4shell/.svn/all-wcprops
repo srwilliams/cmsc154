@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/srwilliams-cs154-2014/!svn/ver/43/p4shell
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/srwilliams-cs154-2014/!svn/ver/43/p4shell/Makefile
+END
+myshell.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/srwilliams-cs154-2014/!svn/ver/43/p4shell/myshell.c
+END
+00-checkme.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/srwilliams-cs154-2014/!svn/ver/43/p4shell/00-checkme.html
+END

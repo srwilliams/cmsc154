@@ -1,0 +1,29 @@
+final score: 49
+bomb145 srwilliams+jeffwang Thu Apr 24 23:50 valid
+    Defused:   5
+    Explosion: 3
+    Score:     49
+bomb115 srwilliams+jeffwang Wed Apr 23 15:53 invalid phase 1
+    Defused:   0
+    Explosion: 7
+    Score:     -3
+
+###### bomb145 created: Thu Apr 24 19:28:17 2014 ######
+Thu Apr 24 19:35:21 2014: phase 1 defused: 'giving students an outlet for exploring the wilderness 54'
+Thu Apr 24 21:09:17 2014: phase 2 defused: '4 7 14 27 54 107'
+Thu Apr 24 21:28:23 2014: phase 3 exploded: '123 Ab 4567'
+Thu Apr 24 21:39:39 2014: phase 3 defused: '1 e 1390'
+Thu Apr 24 22:12:14 2014: phase 4 exploded: '14 9999999999999999999999999999999999999999999'
+Thu Apr 24 22:23:13 2014: phase 4 defused: '7 0'
+Thu Apr 24 22:42:35 2014: phase 5 defused: 'aaaaff'
+Thu Apr 24 23:50:48 2014: phase 6 exploded: '1 2 3 4 5 6'
+
+###### bomb115 created: Sun Apr 20 23:56:06 2014 ######
+Tue Apr 22 12:21:59 2014: phase 1 exploded: 'Ambition is just as dangerous '
+Tue Apr 22 12:25:13 2014: phase 1 exploded: 'Ambition is just as dangerous'
+Tue Apr 22 14:16:53 2014: phase 1 exploded: 'TEST'
+Tue Apr 22 14:18:57 2014: phase 1 exploded: 'TEST'
+Tue Apr 22 14:38:32 2014: phase 1 exploded: 'Ambition is just as dangerous as complacency'
+Wed Apr 23 00:04:18 2014: phase 1 defused: '\0'
+Wed Apr 23 13:10:52 2014: phase 1 exploded: '\0'
+Wed Apr 23 15:53:44 2014: phase 1 exploded: 'My name is Jeff Wang.'

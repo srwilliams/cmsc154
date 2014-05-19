@@ -1,0 +1,35 @@
+Shelby Williams
+hw2.txt
+
+
+(1)
+
+Part	Value		Mode
+
+A.	0x09		Indirect
+B.	Unknown		0x12 hex = 18, 0x210 hex = 528, 528+18 = 0x222 hex, which is not listed in the first table
+C.	0x54		Absolute
+D.	0xBC		leal(Indexed)
+E.	0xBC		Indexed
+F.	0x42		Scaled Indexed
+G.	Unknown		0x123 hex = 291, 0x100 hex = 256, 0x4 hex = 4, 0x11 hex = 17, 291+256+(4*17) = 0x267 hex, which is not listed in the table
+H.	0xFB		Immediate
+I.	0x42		Scaled Indexed
+J.	Unknown		0x100 hex = 256, 0x54 hex = 84, 256+84 = 0x154 hex, which is not listed in the table.
+
+
+(2)
+
+Part	Destination	Value
+
+A.	%esi		0x5
+B.	%ebx		0x0
+C.	%eax		0xAA
+D.	%edi		0xFFFFFEE4
+E.	%edx		0xFFFFFFFE
+F.	%ecx		0x00000090
+G.	%ecx		0x0000011C
+H.	Unknown		The destination would have a value of 0x214, but we don't know what register has that value
+I.	%eax		0x19
+J.	Unknown		The destination would have a value of 0x220, but we don't know what register has that value
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/srwilliams-cs154-2014/!svn/ver/3/lab1/testMake
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/srwilliams-cs154-2014/!svn/ver/3/lab1/testMake/Makefile
+END
+foo.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/srwilliams-cs154-2014/!svn/ver/3/lab1/testMake/foo.c
+END
+bar.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/srwilliams-cs154-2014/!svn/ver/3/lab1/testMake/bar.c
+END
+foo.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/srwilliams-cs154-2014/!svn/ver/3/lab1/testMake/foo.h
+END
+bar.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/srwilliams-cs154-2014/!svn/ver/3/lab1/testMake/bar.h
+END

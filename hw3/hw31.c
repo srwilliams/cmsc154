@@ -1,0 +1,18 @@
+//Shelby Williams
+//Hw3
+
+
+//(1)
+
+funcQ (int x, int y) {
+	return y + (3 * x);
+}
+
+funcP (int r, int s, int t) {
+	if (s & s) {
+		s = funcQ(s, t) + r;
+	}
+	r = funcQ(r, s) + t;
+	return r + 16;
+}
+

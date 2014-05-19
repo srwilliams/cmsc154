@@ -1,0 +1,30 @@
+Shelby Williams
+Hw #5
+
+
+(1)
+
+A. *pb  line 4 is dereferencing the pointer pb.
+B. It's possible that the value of *pb could change because of memory aliasing
+C. Memory Aliasing
+D. void addto2(int *arr, int *pb, int n) {
+	int i;
+	int temp = *pb;
+	for (i = 0; i < n; i++) {
+		arr[i] = temp;
+	}
+}
+
+
+(2)
+
+A. To execute a system call, the instruction 'syscall n' is called for some service 'n'.  Then an exception handler decodes the argument and then calls tge kernel routine that corresponds to that system call.  
+B. The man comman first searches for the argument within the section that has the kernel functions and will return the first entry it finds that matches the argument, even if the function can be found in another section.  If man can't find the argument in the kernel function sections, then it looks in the library functions section, and will return the first entry it finds that matches the argument.
+C. SC = alarm - gives a signal to the calling process in a number of seconds that is specified as an argument
+	mmap - creates a mapping of size (length) and at (addr) in virtual memory.  length and addr are arguments to this call.
+	fork - creating a new process for the current process by duplicating it
+	pause - makes the process sleep until a signal is given that either begins a new process that invokes a function that requires a signal or ends the current one
+   LF = dlopen - an interface for the linking loader
+	fclose - flushes the stream that the argument is pointing to and closes the file
+	fseek - sets the 'beginning of file' pointer to a position in the stream that is specified by an argument
+	log - gives the natural logarithm of (x), where x is an argument to the function

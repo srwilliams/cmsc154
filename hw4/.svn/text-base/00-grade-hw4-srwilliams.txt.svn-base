@@ -1,0 +1,28 @@
+srwilliams hw4 grade: 49/55
+
+Graded files from svn revision 28
+
+--------------------------------------
+Question 1 points and comments: 18/20
+last read is a miss with value 03
+
+Graded by: Joe Ellis (ellisjoe)
+--------------------------------------
+
+Question 2 points and comments: 20/20
+Nice job!
+
+Graded by: Rachel Hwang (rah1)
+--------------------------------------
+
+Question 3 points and comments: 11/15
+L_BJ*F_BJ and (1-r)*M+H*R terms should be summed not added
+one is related to latency for branches and jumps, the other for memory loads and stores
+also, to properly account for the part of the average latency from loads and stores,
+you need to multiply that term by the sum of the percentage of instructions that are loads and stores
+Graded by: Abraham Secular (asecular)
+--------------------------------------
+
+If you believe there is an error in how you were graded, you have a week,
+starting from when this grade was returned, to notify us (the cs154 graders).
+Notify us by filling out and submitting the form here: http://goo.gl/oGlVeY

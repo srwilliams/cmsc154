@@ -1,0 +1,55 @@
+Shelby Williams
+HW #6
+
+(1)
+
+A. Error number: 0, Address: 0xC0005000Description: Divide error, Function called: DivideByZeroError(), Eception class: Fault
+B. %ebx is put at the to of the stack, then the function at 0x08001000 is called.  The processor detects that the idivl instruction is attempting to divide by zero, pushes a return address onto the stack (and possibly the EFLAGS register), and makes a procedure call (int 0xC0005000) to the exception table and finds the correct exception handler, which then attempts to fix the error condition.  If it can't, the handler returns an abort routine, which terminates the program.
+
+(2)	pushl %ebp
+	movl %esp, %ebp
+	subl $24, %esp
+	movl 12(%ebp), %eax
+	movl 8(%ebp), %ecx
+	movl $0, %edx
+	movl %ecx, -4(%ebp)
+	movl %eax, -8(%ebp)
+	movl $3, %eax
+	movl 8(%ebp), %ebx
+	movl 4(%ebp), %ecx
+	movl $0, %edx
+	int $0x80
+	addl $24, %esp
+	popl %ebp
+	ret
+
+(3)
+
+A. P 16 0
+   P 24 101
+   C 20 0
+   P 8  101
+   C 8  0
+   C 10 0
+   P 27 0
+
+B. P 16 0
+   P 24 101
+   C 20 101
+   C 8  0
+   C 10 0
+   P 27 0
+so the parent creates the child process and prints out "child is 101", and in this case, the child gets to the kill instruction, which sends the child to the handler1 function.  The child prints out "(101) handler1", adn since the value of forkret is 0,  the child prints out "(101) seeya", then once the child has terminated, the parent prints "(parent) child done".
+
+C. P 16 0
+   P 24 101
+   C 8  0
+   C 10 0
+   P 27 0
+In this case, the parent gets to the kill instruction before the child can execute line 20.  This sends the child to the handler1 function, and then makes the parent return "child done" when the child terminates.
+
+D. P 16 0
+   C 20 101
+   P 8  0
+   P 10 0
+the parent gets to the kill instruction before the child can, but sends itself to the handler1 function, which then makes the parent print "(100) handler1" and "(100) seeya", and leaves the child as a zombie (I think)
